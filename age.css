@@ -73,9 +73,51 @@ button:hover {
 }
 
 
-
 #result {
     margin-top: 20px;
     font-size: 18px; 
     color: #333; 
+}
+
+
+@media (max-width: 572px) {
+    h1 {
+    font-size: 50px;
+}
+
+.container {
+    max-width: 80%;
+}
+}
+
+@media (max-width: 572px) {
+    h1 {
+    font-size: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    #result {
+    font-size: 16px; 
+}
+}
+
+@media (max-width: 334px) {
+    .input-group {
+    flex-direction: column;
+    display: block;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width: 315px) {
+    h1 {
+    font-size: 30px;
+}
 }
